@@ -7,11 +7,11 @@ public class PalindromeChecker {
         System.out.print("Enter a string: ");
         String input = reader.readLine();
 
-        if (isPalindrome(input)) {
-            System.out.println("The string \"" + input + "\" is a palindrome.");
-        } else {
-            System.out.println("The string \"" + input + "\" is not a palindrome.");
-        }
+       if (isPalindrome(input)) {
+    System.out.println("The string \"" + input + "\" is a palindrome.");
+} else {
+    System.out.println("The string \"" + input + "\" is not a palindrome.");
+}
 
         reader.close();
     }
